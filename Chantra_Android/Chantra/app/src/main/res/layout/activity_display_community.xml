@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.orbitusrobotics.chantra.DisplayCommunityActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:id="@+id/daily_encouragement"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="12dip"
+                    android:text="@string/daily_encouragement"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sgi_usa"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:background="@color/light_titlecolor"
+                    android:padding="12dip"
+                    android:text="@string/sgi_usa"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sgi_intl"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="12dip"
+                    android:text="@string/soka_gakkai_international"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/words_of_wisdom"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:background="@color/light_titlecolor"
+                    android:padding="12dip"
+                    android:text="@string/words_of_wisdom"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sgi_quarterly"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="12dip"
+                    android:text="@string/sgi_quarterly"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tsunesaburo_makiguchi"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:background="@color/light_titlecolor"
+                    android:padding="12dip"
+                    android:text="@string/tsunesaburo_makiguchi"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/josei_toda"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="12dip"
+                    android:text="@string/josei_toda"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/daisaku_ikeda"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:background="@color/light_titlecolor"
+                    android:padding="12dip"
+                    android:text="@string/daisaku_ikeda"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/writings_of_nichiren_daishonin"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="12dip"
+                    android:text="@string/writing_of_nichiren_daishonin"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sgi_youtube"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:background="@color/light_titlecolor"
+                    android:padding="12dip"
+                    android:text="@string/sgi_youtube_channel"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sgi_buddhism"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="12dip"
+                    android:text="@string/sgi_buddhism_dictionary"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sgi_video_for_youth"
+                android:onClick="rowClick">
+
+                <TextView
+                    android:layout_column="1"
+                    android:background="@color/light_titlecolor"
+                    android:padding="12dip"
+                    android:text="@string/videos_for_sgi_youth"
+                    android:textColor="#000000" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orbitusrobotics.chantra">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".ChantHomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayGoalsActivity"
+            android:label="@string/title_activity_display_goals"
+            android:parentActivityName=".ChantHomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.orbitusrobotics.chantra.ChantHomeActivity" />
+        </activity>
+        <activity
+            android:name=".DisplayCommunityActivity"
+            android:label="@string/title_activity_display_community"
+            android:parentActivityName=".ChantHomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.orbitusrobotics.chantra.ChantHomeActivity" />
+        </activity>
+        <activity
+            android:name=".DisplayShareDaimokuActivity"
+            android:label="@string/title_activity_display_share_daimoku"
+            android:parentActivityName=".ChantHomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.orbitusrobotics.chantra.ChantHomeActivity" />
+        </activity>
+        <activity
+            android:name=".LotusActivity"
+            android:label="@string/title_activity_lotus"
+            android:parentActivityName=".ChantHomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.orbitusrobotics.chantra.ChantHomeActivity" />
+        </activity>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+
+    </application>
+
+</manifest>

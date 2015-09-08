@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Chantra</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="goals">Goals</string>
+    <string name="community">Community</string>
+    <string name="share">Share</string>
+    <string name="gongyo">Gongyo</string>
+    <string name="chant">Chant</string>
+    <string name="water">Water</string><string name="edit_message">Edit Hello world!</string>
+    <string name="reset">Reset</string>
+    <string name="gongyo_liturgy">Gongyo Liturgy</string>
+    <string name="silent_prayers">Silent Prayers</string>
+
+    <string name="mygoals">MyGoals!</string>
+    <string name="done">Done</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="daimoku_goal">Daimoku Goal</string>
+    <string name="daimoku_sharing">Daimoku Sharing</string>
+
+    <string name="sgi_community">SGI Community</string>
+    <string name="daily_encouragement">Daily Encouragement =)</string>
+    <string name="sgi_usa">SGI-USA</string>
+    <string name="soka_gakkai_international">Soka Gakkai International</string>
+    <string name="words_of_wisdom">Words of Wisdom</string>
+    <string name="sgi_quarterly">SGI Quarterly</string>
+    <string name="tsunesaburo_makiguchi">Tsunesaburo Makiguchi</string>
+    <string name="josei_toda">Josei Toda</string>
+    <string name="daisaku_ikeda">Daisaku Ikeda</string>
+    <string name="writing_of_nichiren_daishonin">Writing of Nichiren Daishonin</string>
+    <string name="sgi_youtube_channel">SGI YouTube Channel</string>
+    <string name="sgi_buddhism_dictionary">SGI Buddhism Dictionary</string>
+    <string name="videos_for_sgi_youth">Videos for SGI Youth</string>
+    <string name="title_activity_display_goals">DisplayGoalsActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_community">DisplayCommunityActivity</string>
+    <string name="title_activity_display_share_daimoku">DisplayShareDaimokuActivity</string>
+    <string name="title_activity_lotus">LotusActivity</string>
+    <string name="facebook_app_id">542271369254408</string>
+
+</resources>

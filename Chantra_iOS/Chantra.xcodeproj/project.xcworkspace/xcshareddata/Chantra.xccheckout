@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>843F6810-4CEF-4399-AB23-3CFE3AFD50D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Chantra</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2D739AF68BD8B139E3DBFD452E761C0254770668</key>
+		<string>orbitusrobotics.com:Orbitus/chantra.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Chantra_iOS/Chantra.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D739AF68BD8B139E3DBFD452E761C0254770668</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>orbitusrobotics.com:Orbitus/chantra.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2D739AF68BD8B139E3DBFD452E761C0254770668</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D739AF68BD8B139E3DBFD452E761C0254770668</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chantra</string>
+		</dict>
+	</array>
+</dict>
+</plist>
